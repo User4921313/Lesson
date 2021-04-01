@@ -3,10 +3,19 @@
 <head>
     <meta charser="URF-8"> 
 	<title>Хогвартс</title>
-</head>
-<body style="background:#d13d3d;">
+    <style type="text/css">
+      h1 {
+       font-size: 56px;}
+    p, ul { font-size: 16px }
+    .table {  font-size: 20px; text-align: center; width: 65%; }
+    .table-red {border: 3px solid #4a0606;}
+    .table-grey {border: 3px solid #3d2d2d;}
+    </style>
      
-    <h1 style="color: #FFD700; background: #fc2323">
+</head>
+<body style="background:#990303;">
+     
+    <h1 style="color: #FFD700; background: #821010">
         <i> Гриффиндор </i>
     </h1>
     <!-- <h2 style="color: rgb(21, 7, 2001);" 
@@ -16,6 +25,9 @@
     <!-- <h4>Home page</h4> -->
     <!-- <h5>Home page</h5> -->
     <!-- <h6>Home page</h6> -->
+    <p>Гриффиндор (англ. Gryffindor) — один из факультетов школы магии и волшебства «Хогвартс», который был основан Годриком Гриффиндором. Отличительные качества учеников этого факультета: храбрость, благородство, честность.</p>
+    <p>Гриффиндор – не только самый выдающийся из всех факультетов Хогвартса, но и тот, который получил больше всего внимания.</p>
+    <p>Основатель: Годрик Гриффиндор. Декан: профессор Минерва МакГонагалл. Призрак: Почти Безголовый Ник. Животное: лев. Цвета: алый и золотой. Магические предметы, связанные с основателем факультета: меч Гриффиндора, Распределяющая шляпа</p>
     <p>
         <ul>
             <li>Это</li>
@@ -42,7 +54,7 @@
        </ul>
 
 
-       <table border="3" style="border: 3px solid #8B0000; font-size: 20px; text-align: center; width: 75%" class="table">
+       <table border="3"  class="table table-red">
            <thead>
                <tr>
                    <th>Заголовок ячейки 1</th>
@@ -67,12 +79,19 @@
                    <td>Ещё</td>
                    <td>Для количества</td>
                </tr>
+               <tr>
+                   <td>12345</td>
+                   <td colspan="2" rowspan="2">768</td>
+                </tr>
+                <tr>
+                    <td>565</td>   
+               </tr>
            </tbody>
  
 
        </table>   
 <p></p>
-       <table border="3" style="border: 3px solid #66102a; font-size: 20px; text-align: center; width: 35%";>
+       <table border="3" class="table table-grey">
            <thead>
                <tr>
                    <th rowspan="2">Год</th>
