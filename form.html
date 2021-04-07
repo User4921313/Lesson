@@ -26,11 +26,39 @@
 
 	<div class="container">
 		 <form method="GET" id="search">
-        <p> <input type="text" name="queru"> </p>    
+        <p> 
+        	<label for="name">ФИО</label>
+        	<input type="text" name="queru" id="name" placeholder="ФИО"> </p>    
       
-        <p> <input type="text" name="a"> </p>
+        <p>
+        	<label for="a">Телефон</label>
+        	<input type="text" name="a" id="a" placeholder="Телефон"> </p>
+        <div>
+        	<p>
+        	<label for="cource">Класс</label>	
+        	</p>
+        	
 
+        <p>
+        	
+        	<select name="cource" id="cource">
+        		<option>1</option>
+        		<option>2</option>
+        		<option>3</option>
+        		<option>4</option>
+        		<option>5</option>
+        	</select>
+        </p>	
+        </div>
+        
+
+        <p>
+        	<label for="About">About</label>
+        	<textarea rows="10" cols="40" id="About" placeholder="About"></textarea>
+        </p>
         <button type="submit">Submit</button>
+
+       
 
     </form>
 
@@ -53,6 +81,8 @@
    	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
    	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
    </p>
+
+
 
 
 
