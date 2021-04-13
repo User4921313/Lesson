@@ -13,7 +13,10 @@
        	   margin: 0 auto;
        	   padding: 20px;
        }
-       form input {width: 100%}
+       
+       form input:not([type="checkbox","radio"]){width: 100%}
+       label {display: inline-block;
+       	width: 100%}
        .box {border: 2px solid #ff4500; 
        	padding: 15px;
        	margin: 50px 100px}
@@ -33,7 +36,71 @@
         <p>
         	<label for="a">Телефон</label>
         	<input type="text" name="a" id="a" placeholder="Телефон"> </p>
+
+        <p>
+        	<label for="email">Почта</label>
+        	<input type="text" name="email" id="email" placeholder="Почта"> </p>	
+       
+        <p>
+        	<label for="date">Дата рождения</label>
+        	<input type="date" name="date" id="date">
+        </p>
         <div>
+        	<label for="fruit">Фрукты</label>
+        	<label>
+        		<input type="checkbox" name="fruit" >
+        		Яблоки
+        	</label>
+        	<label>
+        		<input type="checkbox" name="fruit" >
+        		Груши
+        	</label>
+        	<label>
+        		<input type="checkbox" name="fruit" >
+        		Апельсины
+        	</label>
+        	<label>
+        		<input type="checkbox" name="fruit" >
+        		Мандарины
+        	</label>
+        	<label>
+        		<input type="checkbox" name="fruit" >
+        		Киви
+        	</label>
+        	<label>
+        		<input type="checkbox" name="fruit" >
+        		Персик
+        	</label>
+        	<label>
+        		<input type="checkbox" name="fruit" >
+        		Помело
+        	</label>
+        	
+        </div>
+        <p></p>
+        <div>
+        	<label for="sd">Время года</label>
+        	<label>
+        		<input type="radio" name="sd" >
+        		<img src="images/winter.png" alt="Зима">
+        		
+        	</label>
+        	<label>
+        		<input type="radio" name="sd" >
+        		<img src="images/spring.png" alt="Весна">
+        	</label>
+        	<label>
+        		<input type="radio" name="sd" >
+        		<img src="images/summer.png" alt="Лето">
+        	</label>
+        	<label>
+        		<input type="radio" name="sd" >
+        		<img src="images/autumn.png" alt="Осень">
+        		
+        	</label>
+        </div>	
+
+         <div>
         	<p>
         	<label for="cource">Класс</label>	
         	</p>
@@ -50,7 +117,6 @@
         	</select>
         </p>	
         </div>
-        
 
         <p>
         	<label for="About">About</label>
