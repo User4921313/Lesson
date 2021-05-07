@@ -1,2 +1,2 @@
 # Lesson
-Krivisheeva Evgenia Denisovna 492 
+Krivosheeva Evgenia Denisovna 492 
